@@ -64,7 +64,9 @@ header .logo span {
     display: flex;
 
 }
-
+.navbar-active{
+    color: var(--blue);
+}
 header .navbar a {
     font-size: 2rem;
     padding: 0 1.5rem;
@@ -100,7 +102,7 @@ header .fa-bars {
     border: 1rem solid rgba(0, 0, 0, .3);
     display: none;
 }
-
+/* Home First page*/
 .home {
     display: flex;
     align-items: center;
@@ -162,7 +164,12 @@ header .fa-bars {
 .heading span {
     color: var(--blue);
 }
+/* Home First page*/
 
+
+
+
+/* Contact us*/
 .contact {
     margin-top: 100;
 }
@@ -213,7 +220,10 @@ header .fa-bars {
     height: 15rem;
     resize: none;
 }
+/* Contact us*/
 
+
+/* Products*/
 .products .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -316,7 +326,11 @@ header .fa-bars {
     font-weight: lighter;
     text-decoration: line-through;
 }
+/* Products*/
 
+
+
+/* Footer*/
 .footer .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -364,6 +378,7 @@ header .fa-bars {
 .footer .credits span {
     color: var(--blue);
 }
+/* Footer*/
 
 .heading {
     text-align: center;
@@ -377,7 +392,7 @@ header .fa-bars {
 .heading span {
     color: var(--blue);
 }
-
+/* About us*/
 .about .row {
     display: flex;
     align-items: center;
@@ -430,6 +445,7 @@ header .fa-bars {
     padding-top: 1rem;
     line-height: 1.5;
 }
+/* About us*/
 
 .margin {
     margin-top: 5;
@@ -440,7 +456,7 @@ header .fa-bars {
 
 
 
-
+/* responsive website*/
 
 @media (max-width:991px) {
     html {
@@ -509,6 +525,7 @@ header .navbar a {
     }
   
 }
+/* responsive website*/
 
 a {
     text-decoration: none !important;

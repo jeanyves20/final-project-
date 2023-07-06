@@ -1,3 +1,5 @@
+//register form error debut
+
 var passwordEl = document.getElementById("password");
 var CpasswordEl = document.getElementById("confirmPassword");
 var form = document.getElementsByTagName("form")[0];
@@ -23,3 +25,4 @@ form.addEventListener("submit", function (event) {
         passwordError.innerText = `Too Short, ${MIN_PASSWORD_LENGHT} characters min !`;
     }
 });
+//register form error end

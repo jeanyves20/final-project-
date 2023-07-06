@@ -45,17 +45,15 @@
             <h1 class="heading">Join<span> Us</span></h1>
         </section>
         <div class="row">
-            <form action="">
-
-
-                <input type="text" placeholder="First Name" class="box">
-                <input type="text" placeholder="Last Name" class="box">
-                <input type="date" name="birthday" class="box">
-                <input type="email" placeholder="Email" class="box">
+            <form>
+                <input type="text" placeholder="First Name" required class="box">
+                <input type="text" placeholder="Last Name" required class="box">
+                <input type="date" name="birthday" required class="box">
+                <input type="email" placeholder="Email" required class="box">
                 <input type="number" placeholder="Number" class="box">
-                <input type="password" placeholder="Password" name="password" required class="box">
-                <input type="password" placeholder="Confirm your password" name="password" required class="box">
-                <input type="submit" value="send message" class="btn">
+                <input type="password" id="password" placeholder="Password" required name="password" required class="box">
+                <input type="password" id="confirmPassword" placeholder="Confirm your password" name="password" required class="box">
+                <input type="submit" value="Sign up" class="btn">
                 <input type="reset" class="btn" value="Clear all">
             </form>
             <div class="image">
@@ -134,12 +132,14 @@
                 <a href="#">Nigeria</a>
                 <a href="#">Congo</a>
             </div>
+            <div class="box">
             <h3>contact info</h3>
             <a href="#">+225-07-68-77-62-53</a>
             <a href="#">kotchijeanyves@gmail.com</a>
             <a href="#">ivory coast abidjan -bp904</a>
-            <img src="image/payment-methods-epicerie-ludo.png" alt="">
+            <img  width="200" src="image/payment-methods-epicerie-ludo.png" alt="">
         </div>
+       
         </div>
 
         <div class="credits"> Created by <span>Jean Yves Kotchi</span>| all rights reserved</div>
@@ -149,6 +149,7 @@
 
 
     </section>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

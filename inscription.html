@@ -51,8 +51,13 @@
                 <input type="date" name="birthday" required class="box">
                 <input type="email" placeholder="Email" required class="box">
                 <input type="number" placeholder="Number" class="box">
+
                 <input type="password" id="password" placeholder="Password" required name="password" required class="box">
-                <input type="password" id="confirmPassword" placeholder="Confirm your password" name="password" required class="box">
+                <span id="pass-error"></span>
+                <div>
+                    <input type="password" id="confirmPassword" placeholder="Confirm your password" name="password" required class="box">
+                    <span id="pass-confirm-error"></span>
+                </div>
                 <input type="submit" value="Sign up" class="btn">
                 <input type="reset" class="btn" value="Clear all">
             </form>
